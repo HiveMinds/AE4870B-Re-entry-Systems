@@ -1,0 +1,20 @@
+a)
+
+
+b)
+112.76 m/s
+
+c)
+1268.01 m
+
+d)
+Setting: 0.0803 (this is incorrect, as it takes drag into account. alternate value: 0.1845)
+
+massflow per engine: 0.123 kg/s
+total fuel mass used: 12.77 kg
+
+e)
+-3.68 m/s error
+
+f)
+the vehicle ascends (see negative in e) )

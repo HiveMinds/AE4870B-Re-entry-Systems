@@ -1,0 +1,10 @@
+a	false
+b	
+c	true
+d	false
+e	false
+f	true
+g	true
+h	true
+i	true
+j	false (ballistic: first max heat flux, then max mechanical loads

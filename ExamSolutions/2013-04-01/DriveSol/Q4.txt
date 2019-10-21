@@ -1,0 +1,34 @@
+
+a)
+note that D>>W and L>>W, ignore the respective terms, divide equation parallel and normal to velocity by each other to get dV/dgamma, integrate with L/D=constant
+
+for the second equation, start with
+
+V*dgamma/dt=L/m
+and transfer it to:
+V*dgamma/dpressure *dpressure/dh * dh/dt
+
+dh/dt=V sin(gamma)
+dpressure/dh follows from p=-g*rho*h
+
+use
+L=0.5*V^2*C_L*rho*S
+
+substitute, move terms to the respective sides and integrate from entry conditions _E to whatever
+
+the entry conditions are somewhere high up (120km or so), so there's like literally zero air up there (almost). thus, make the bold move of stating that p_E=0 and you're almost done
+
+Now reform with the help of p=R*T*rho and R*T=g/beta
+
+qed
+
+b)
+apply the formula and notice that leaving: gamma_F=-gamma_E
+at lowest point: gamma=0
+at peak, gamma=0 and V=V_F*cos(gamma_E)
+at second reentry: V_E2 = V_F
+
+c)
+use formula of part a, set gamma=0, notice that 1-cos(x)=2*sin^2(x/2) and be happy, 'cause you just found the density
+now apply the density on the exponential atmosphere model, notice that beta=1/H and you're there
+

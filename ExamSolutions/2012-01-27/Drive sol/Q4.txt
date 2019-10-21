@@ -1,0 +1,31 @@
+a)
+proportional: q_c = K_p * q_c,err
+
+integral: q_c = K_i * int(q_c,err) dtau
+
+derivative: q_c = K_d * dq_c,err/dt
+
+
+For final q_c, add all three components
+
+b)
+See reader pp. 355ff. Start from equation of motion, solve for D, which requires you to find an expression for dV/dt. you get that expression by taking the time derivative of q_c. watch the chain rule (V and rho). Use the exponential atmosphere to find an expression for drho/dt=drho/dh*dh/dt
+Sbus
+
+c)
+D_cmd = D_0 + DELTA_D
+
+d)
+D_cmd = 0.5*rho*V^2*S*C_D
+
+Solve for C_D as CD=f(alpha,M)
+
+e)
+ideas:
+S: known
+C_D: known
+rho: use dynamic pressure and temperature measurements
+beta: horizon sensor + IMU
+m: known
+g: known (approx g_0)
+V: use dynamic pressure and temperature measurements + IMU

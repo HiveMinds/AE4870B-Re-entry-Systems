@@ -1,0 +1,14 @@
+a	false (dgamma/dh=0)
+b	false (during the first entry)
+c	false
+d	true
+e	false
+f	false (only T=constant)
+g	false (around V-vector; around body axis would be rolling)
+h	false
+i	false (gyroscopes just have a different name for it, drift?)
+j	false (only depends on beta, V_E, and gamma_E)
+
+
+
+

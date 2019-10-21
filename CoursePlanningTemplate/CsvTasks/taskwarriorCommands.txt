@@ -1,0 +1,47 @@
+task add due:2019-11-06T09:00 proj:uni.reentry.exam  make exam at location= weight=90 duration=3
+task add due:2019-11-19 priority:H proj:uni.reentry.exam REGISTER FOR THIS EXAM
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=1 exam date=2011-06-21 exercise 4-1 weight=25 topic=Flight dyn cone transform C_BT lect.topic=Fundamentals of Motion
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=1 exam date=2011-06-21 exercise 4-2 weight=15 topic=Flight dyn sphere linearize. eigenvalue lect.topic=Fundamentals of Motion
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=1 exam date=2011-06-21 exercise 4-3 weight=40 topic=Gliding Rentry of Huygens in Titan vs mars. 2d eom lect.topic=Ballistic Entry
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=1 exam date=2011-06-21 exercise 4-4 weight=20 topic=Dynamic equations. performance curve lect.topic=Introduction
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=2 exam date=2011-08-26 exercise 4-1 weight=25 topic=Flight dyn cone transform C_BT lect.topic=Introduction
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=2 exam date=2011-08-26 exercise 4-2 weight=20 topic=Flight dyn cone+sphere linearize lect.topic=Entry Environment
+task add due:2019-09-09   priority:M proj:uni.reentry.OldEx Brightspace exam nr=2 exam date=2011-08-26 exercise 4-3 weight=30 topic=Gliding re-entry lect.topic=Aerodynamics
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=2 exam date=2011-08-26 exercise 4-4 weight=25 topic=Skipping re-entry lect.topic=Ballistic Entry
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=3 exam date=2012-04-19 exercise 4-1 weight=20 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=3 exam date=2012-04-19 exercise 4-2 weight=30 topic=Draw EOM gliding trajectory heat eq lect.topic=Aeroheating
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=3 exam date=2012-04-19 exercise 4-3 weight=20 topic=Parashute mars lect.topic=Entry Environment
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=3 exam date=2012-04-19 exercise 4-4 weight=30 topic=Heat flux lect.topic=Aeroheating
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=4 exam date=2012-02-22 exercise 4-1 weight=20 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=4 exam date=2012-02-22 exercise 4-2 weight=30 topic=Draw EOM gliding trajectory heat eq lect.topic=Aeroheating
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=4 exam date=2012-02-22 exercise 4-3 weight=20 topic=Parashute mars lect.topic=Entry Environment
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=4 exam date=2012-02-22 exercise 4-4 weight=30 topic=Heat flux lect.topic=Aeroheating
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=5 exam date=2012-01-27 exercise 4-1 weight=20 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=5 exam date=2012-01-27 exercise 4-2 weight=30 topic=Draw EOM Ballistic trajectory lect.topic=Ballistic Entry
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=5 exam date=2012-01-27 exercise 4-3 weight=20 topic=Parachutes lect.topic=Entry Environment
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=5 exam date=2012-01-27 exercise 4-4 weight=30 topic=TPS heatflux lect.topic=Aeroheating
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=6 exam date=2013-02-01 exercise 4-1 weight=20 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=6 exam date=2013-02-01 exercise 4-2 weight=20 topic=Dynamic equations. performance curve lect.topic=Fundamentals of Motion
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=6 exam date=2013-02-01 exercise 4-3 weight=30 topic=2d EOM gliding trajectory lect.topic=Entry Environment
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=6 exam date=2013-02-01 exercise 4-4 weight=30 topic=Parashutes lect.topic=Introduction
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=7 exam date=2014-01-22 exercise 4-1 weight=15 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=7 exam date=2014-01-22 exercise 4-2 weight=35 topic=2d eom Ballistic trajectory lect.topic=Ballistic Entry
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=7 exam date=2014-01-22 exercise 4-3 weight=25 topic=Max heat vs max g relation derive lect.topic=Aeroheating
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=7 exam date=2014-01-22 exercise 4-4 weight=25 topic=Heat flux lect.topic=Aeroheating
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=8 exam date=2015-01-23 exercise 4-1 weight=10 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=8 exam date=2015-01-23 exercise 4-2 weight=30 topic=Precision landing derive scalar translations eom accel lect.topic=Fundamentals of Motion
+task add due:2019-09-09   priority:M proj:uni.reentry.OldEx Brightspace exam nr=8 exam date=2015-01-23 exercise 4-3 weight=20 topic=derive hydrostaic eq. step response. parashute lect.topic=Aerodynamics
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=8 exam date=2015-01-23 exercise 4-4 weight=40 topic=Balistic entry. eom. flight path. max decel lect.topic=Ballistic Entry
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=9 exam date=2015-11-03 exercise 5-1 weight=10 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=9 exam date=2015-11-03 exercise 5-2 weight=15 topic=Hazard detection avoidance system explain lect.topic=Introduction
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=9 exam date=2015-11-03 exercise 5-3 weight=30 topic=Ballistic entry Flight path Mars lect.topic=Ballistic Entry
+task add due:2019-09-09   priority:M proj:uni.reentry.OldEx Brightspace exam nr=9 exam date=2015-11-03 exercise 5-4 weight=30 topic=Hypersonic flow. GNC. step func. entry mechan skip flight lect.topic=Aerodynamics
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=9 exam date=2015-11-03 exercise 5-5 weight=15 topic=E-guidance derive quartic law lect.topic=Fundamentals of Motion
+task add due:2019-09-03   priority:M proj:uni.reentry.OldEx Brightspace exam nr=10 exam date=2016-11-08 exercise 5-1 weight=10 topic=true false coriolis parashute lect.topic=Introduction
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=10 exam date=2016-11-08 exercise 5-2 weight=15 topic=GNC HDA TRN describe max roughness vehicle lect.topic=Fundamentals of Motion
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=10 exam date=2016-11-08 exercise 5-3 weight=30 topic=Skipping re-entry lect.topic=Entry Environment
+task add due:2019-09-09   priority:M proj:uni.reentry.OldEx Brightspace exam nr=10 exam date=2016-11-08 exercise 5-4 weight=20 topic=Hypersonic flow Surface integrals lect.topic=Aerodynamics
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=10 exam date=2016-11-08 exercise 5-5 weight=25 topic=Radiation equilibrium laminar boundry. hydrostat lect.topic=Aeroheating
+task add due:2019-09-11   priority:M proj:uni.reentry.OldEx Brightspace exam nr=11 exam date=sample q exercise 3-1 weight=33 topic=Set up eom re-entry lect.topic=Fundamentals of Motion
+task add due:2019-09-04   priority:M proj:uni.reentry.OldEx Brightspace exam nr=11 exam date=sample q exercise 3-2 weight=33 topic=dV wrt flight path angle gamma lect.topic=Entry Environment
+task add due:2019-09-16   priority:M proj:uni.reentry.OldEx Brightspace exam nr=11 exam date=sample q exercise 3-3 weight=33 topic=Derive eq lowest point skipping reentry lect.topic=Ballistic Entry

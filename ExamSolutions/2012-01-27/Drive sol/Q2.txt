@@ -1,0 +1,18 @@
+
+
+c)
+no lift (L=0)
+
+d)
+start from q_c = c_1 * 1/R_N^n * rho^{1-n} * V^m and notice that q_c is dependent on: rho^{1-n} * {V/V_E}^3
+substitute the expression for rho (given) and ignore all constant terms. take the derivative of q_c wrt. V/V_E=0 for max. heat flow (use chain rule for derivative), solve and re-substitute in the given expression for rho
+
+m=3 is typical
+
+n is 0.5 for laminar and 0.2 for turbulent boundary layer
+
+
+e)
+just remember that beta=1/H
+substitute to find rho'', then use: rho=rho_0*exp(-beta*h) to find h
+h= 51,385m

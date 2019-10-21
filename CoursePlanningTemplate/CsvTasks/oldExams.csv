@@ -1,0 +1,45 @@
+Brightspace,1,2011-06-21,4,1,25,Flight dyn cone transform C_BT,Fundamentals of Motion,2019-09-11  
+Brightspace,1,2011-06-21,4,2,15,Flight dyn sphere linearize. eigenvalue,Fundamentals of Motion,2019-09-11  
+Brightspace,1,2011-06-21,4,3,40,Gliding Rentry of Huygens in Titan vs mars. 2d eom,Ballistic Entry,2019-09-16  
+Brightspace,1,2011-06-21,4,4,20,Dynamic equations. performance curve,Introduction,2019-09-03  
+Brightspace,2,2011-08-26,4,1,25,Flight dyn cone transform C_BT,Introduction,2019-09-03  
+Brightspace,2,2011-08-26,4,2,20,Flight dyn cone+sphere linearize,Entry Environment,2019-09-04  
+Brightspace,2,2011-08-26,4,3,30,Gliding re-entry,Aerodynamics,2019-09-09  
+Brightspace,2,2011-08-26,4,4,25,Skipping re-entry,Ballistic Entry,2019-09-16  
+Brightspace,3,2012-04-19,4,1,20,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,3,2012-04-19,4,2,30,Draw EOM gliding trajectory heat eq,Aeroheating,2019-09-11  
+Brightspace,3,2012-04-19,4,3,20,Parashute mars,Entry Environment,2019-09-04  
+Brightspace,3,2012-04-19,4,4,30,Heat flux,Aeroheating,2019-09-11  
+Brightspace,4,2012-02-22,4,1,20,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,4,2012-02-22,4,2,30,Draw EOM gliding trajectory heat eq,Aeroheating,2019-09-11  
+Brightspace,4,2012-02-22,4,3,20,Parashute mars,Entry Environment,2019-09-04  
+Brightspace,4,2012-02-22,4,4,30,Heat flux,Aeroheating,2019-09-11  
+Brightspace,5,2012-01-27,4,1,20,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,5,2012-01-27,4,2,30,Draw EOM Ballistic trajectory,Ballistic Entry,2019-09-16  
+Brightspace,5,2012-01-27,4,3,20,Parachutes,Entry Environment,2019-09-04  
+Brightspace,5,2012-01-27,4,4,30,TPS heatflux,Aeroheating,2019-09-11  
+Brightspace,6,2013-02-01,4,1,20,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,6,2013-02-01,4,2,20,Dynamic equations. performance curve,Fundamentals of Motion,2019-09-11  
+Brightspace,6,2013-02-01,4,3,30,2d EOM gliding trajectory,Entry Environment,2019-09-04  
+Brightspace,6,2013-02-01,4,4,30,Parashutes,Introduction,2019-09-03  
+Brightspace,7,2014-01-22,4,1,15,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,7,2014-01-22,4,2,35,2d eom Ballistic trajectory,Ballistic Entry,2019-09-16  
+Brightspace,7,2014-01-22,4,3,25,Max heat vs max g relation derive,Aeroheating,2019-09-11  
+Brightspace,7,2014-01-22,4,4,25,Heat flux,Aeroheating,2019-09-11  
+Brightspace,8,2015-01-23,4,1,10,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,8,2015-01-23,4,2,30,Precision landing derive scalar translations eom accel,Fundamentals of Motion,2019-09-11  
+Brightspace,8,2015-01-23,4,3,20,derive hydrostaic eq. step response. parashute,Aerodynamics,2019-09-09  
+Brightspace,8,2015-01-23,4,4,40,Balistic entry. eom. flight path. max decel,Ballistic Entry,2019-09-16  
+Brightspace,9,2015-11-03,5,1,10,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,9,2015-11-03,5,2,15,Hazard detection avoidance system explain,Introduction,2019-09-03  
+Brightspace,9,2015-11-03,5,3,30,Ballistic entry Flight path Mars,Ballistic Entry,2019-09-16  
+Brightspace,9,2015-11-03,5,4,30,Hypersonic flow. GNC. step func. entry mechan skip flight,Aerodynamics,2019-09-09  
+Brightspace,9,2015-11-03,5,5,15,E-guidance derive quartic law,Fundamentals of Motion,2019-09-11  
+Brightspace,10,2016-11-08,5,1,10,true false coriolis parashute,Introduction,2019-09-03  
+Brightspace,10,2016-11-08,5,2,15,GNC HDA TRN describe max roughness vehicle,Fundamentals of Motion,2019-09-11  
+Brightspace,10,2016-11-08,5,3,30,Skipping re-entry,Entry Environment,2019-09-04  
+Brightspace,10,2016-11-08,5,4,20,Hypersonic flow Surface integrals,Aerodynamics,2019-09-09  
+Brightspace,10,2016-11-08,5,5,25,Radiation equilibrium laminar boundry. hydrostat,Aeroheating,2019-09-11  
+Brightspace,11,sample q,3,1,33,Set up eom re-entry,Fundamentals of Motion,2019-09-11  
+Brightspace,11,sample q,3,2,33,dV wrt flight path angle gamma,Entry Environment,2019-09-04  
+Brightspace,11,sample q,3,3,33,Derive eq lowest point skipping reentry,Ballistic Entry,2019-09-16  

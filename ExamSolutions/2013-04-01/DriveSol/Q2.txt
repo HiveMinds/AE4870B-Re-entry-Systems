@@ -1,0 +1,11 @@
+a)
+
+b)
+
+c)
+
+d)
+L/D = 1.922 (I believe it should be 1.842)
+
+e)
+the logarithm approaches minus infinity, thus the range approaches plus infinity. this means that the vehicle will circle around the Earth

@@ -1,0 +1,32 @@
+Same as question 3 from April 2013
+
+a)
+limit the impact speed (mechanical load constraint)
+control descent duration (communication constraint   - why the hell is this called 'communcation' constraint??)
+
+b)
+pilot: deploy a larger parachute
+main: decelerate, duh
+drogue: stabilise vehicle and/or provide initial deceleration
+
+c)
+restrict canopy at the skirt
+reduces drag area
+reduces opening loads
+why? see above
+
+d)
+provide redundancy
+increases total drag area
+multiple smaller canopies easier to provide than one large one
+shorter inflation time
+increases stability
+
+e)
+Equilibrium: V_dot = 0
+
+f)
+8	11.29 m
+10	9.032 m
+12	7.526 m
+(verified)

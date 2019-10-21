@@ -1,0 +1,10 @@
+a	false
+b	true
+c	false
+d	false
+e	true
+f	false (T=constant)
+g	true (high L=less thermal loading, low D=less frictional heating. but bank to avoid skipping flight)
+h	
+i	false
+j	false (bias is constant and independent of acceleration)
