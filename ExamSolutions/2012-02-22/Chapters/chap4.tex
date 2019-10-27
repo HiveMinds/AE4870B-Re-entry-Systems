@@ -1,1 +1,94 @@
-\section{ Aeroheating:Heat flux }\label{sec:q4}    
+\section{ Question 4 }\label{sec:q4}    
+\begin{enumerate}[a.]
+\item
+The three components of a PID controller are the Proportional, Integrator and Derivative term. (reader p.444-445 eq[7-86])\\
+Proportional term: 
+\begin{equation}
+u(t)=K_{p} q_{c,err}(t)
+\end{equation}
+
+Integrator term: 
+\begin{equation}
+u(t)=K_{i} \int_{0}^{t} q_{c,err}(\tau) d \tau
+\end{equation}
+
+Derivative term: 
+\begin{equation}
+u(t)=K_{d} \frac{d q_{c,err}(t)}{d t}
+\end{equation}
+
+\item
+The leading derivation for this problem can be found in (reader p.489-491) and in (lecture slides(19/20) GNC, slide. 103)\\
+As stated in the question, for heat-flux tracking the heat flux should remain constant during a major portion of the flight. Hence, $\dot{\mathrm{q}}_{\mathrm{c}}=0$. If we now take the time derivative of the Chapman equation ($\mathrm{q}_{\mathrm{c}}=\frac{\mathrm{c}_{1}}{\sqrt{\mathrm{R}_{\mathrm{N}}}} \sqrt{\rho} \mathrm{V}^{3}$), we obtain the following expression for $\dot{\mathrm{q}}_{\mathrm{c}}$. V and $\rho$ are both time dependent variables.
+\begin{equation}
+\dot{\mathrm{q}}_{\mathrm{c}}=\frac{\mathrm{c}_{1}}{\sqrt{\mathrm{R}_{\mathrm{N}}}}\left(\frac{1}{2 \sqrt{\rho}} \frac{\mathrm{d} \rho}{\mathrm{dt}} \mathrm{V}^{\frac{2}{8}}+3 \sqrt{\rho} \mathrm{V}^{2} \frac{\mathrm{d} \mathrm{V}}{\mathrm{dt}}\right)=0
+\end{equation}
+\begin{equation}
+\left(\frac{1}{2} \frac{1}{\rho} \frac{\mathrm{d} \rho}{\mathrm{dt}} \mathrm{V}+3 \frac{\mathrm{d} \mathrm{V}}{\mathrm{dt}}\right)=0
+\end{equation}
+\begin{equation}
+\frac{\mathrm{dV}}{\mathrm{dt}}=-\frac{\mathrm{V}}{6 \rho}\frac{\mathrm{d} \rho}{\mathrm{dt}} = -\frac{V}{6} \frac{1}{\rho} \frac{d \rho}{d t}
+\label{eq:dVdt}
+\end{equation}
+We can write $\frac{1}{\rho} \frac{d \rho}{d t}$ as,
+\begin{equation}
+\frac{1}{\rho} \frac{d \rho}{d t} = \frac{1}{\rho} \frac{\mathrm{d} \rho}{\mathrm{dh}} \frac{\mathrm{dh}}{\mathrm{dt}}
+\label{eq:drhodt}
+\end{equation}
+
+An exponential atmosphere is assumed, this means we can make use of 
+\begin{equation}
+\rho=\rho_{0} \mathrm{e}^{-\beta \mathrm{h}}
+\end{equation}
+\begin{equation}
+\frac{d \rho}{d h}=-\beta \rho_{0} e^{-\beta h} = -\rho \beta
+\label{eq:drhodh}
+\end{equation}
+The equations of motion describing the (2D) planar motion of a mass point around a spherical central body can derived from (reader p.215 Figure 5-2) and should be known by heart. The following two EOM's will be used.\\\\
+\begin{equation}
+\frac{d h}{d t}=V \sin \gamma
+\label{eq:EOM_2}
+\end{equation}
+\begin{equation}
+\mathrm{m} \frac{\mathrm{d} \mathrm{V}}{\mathrm{dt}}=-\mathrm{D}-\mathrm{mg} \sin \gamma
+\label{eq:EOM_1}
+\end{equation}
+Let us know substitute equation \ref{eq:EOM_2} and equation  \ref{eq:drhodh} in equation \ref{eq:drhodt}, which gives us equation \ref{eq:drhodt2}
+\begin{equation}
+\frac{1}{\rho} \frac{d \rho}{d t} = \frac{1}{\rho} \frac{\mathrm{d} \rho}{\mathrm{dh}} \frac{\mathrm{dh}}{\mathrm{dt}} = -\beta V \sin \gamma
+\label{eq:drhodt2}
+\end{equation}
+If we substitute equation \ref{eq:drhodt2} back into equation \ref{eq:dVdt} we get equation \ref{eq:dVdt2}
+\begin{equation}
+\frac{d V}{d t} = \frac{V}{6} \beta L \sin \gamma
+\label{eq:dVdt2}
+\end{equation}
+If we now rearrange equation \ref{eq:EOM_1} and substitute our found expression for $\frac{d V}{d t}$, we obtain the following equation for the nominal drag force.
+\begin{equation}
+\mathrm{D}_{\mathrm{cmd}, 0}=-\mathrm{mg} \sin \gamma-\frac{\beta}{6} \mathrm{mV}^{2} \sin \gamma
+\end{equation}
+
+
+\item
+We use the proportional and the integrator term described in question 4a. The PI regulator can then be given as (reader p.490 eq.7-205)
+\begin{equation}
+\Delta \mathrm{D}_{\mathrm{cmd}}=-\mathrm{K}_{\mathrm{p}} \mathrm{q}_{\mathrm{c}, \mathrm{err}}-\mathrm{K}_{\mathrm{I}} \int_{0}^{\mathrm{t}} \mathrm{q}_{\mathrm{c}, \mathrm{err}} \mathrm{dt}
+\end{equation}
+The complete expression for the commanded drag then becomes,
+\begin{equation}
+\mathrm{D}_{\mathrm{cmd}}= \mathrm{D}_{\mathrm{cmd}, 0} + \Delta \mathrm{D}_{\mathrm{cmd}}=-\mathrm{mg} \sin \gamma-\frac{\beta}{6} \mathrm{mV}^{2} \sin \gamma+\Delta \mathrm{D}_{\mathrm{cmd}}
+\end{equation}
+
+
+\item
+By definition of the drag ($D=C_{D} \frac{1}{2} \rho V^{2} S$) and assuming a drag-coefficient, $C_{D}$(dependent on Mach number and angle of attack) this can easily be translated into a commanded angle of attack, $\alpha_{cmd}$. (reader p.491 eq.7-216)
+\begin{equation}
+\mathrm{D}_{\mathrm{cmd}}=\mathrm{C}_{\mathrm{D}, \mathrm{cmd}} \frac{1}{2} \rho \mathrm{V}^{2} \mathrm{s}
+\end{equation}
+\begin{equation}
+\mathrm{C}_{\mathrm{D}, \mathrm{cmd}}=\mathrm{C}_{\mathrm{D}, \mathrm{cmd}}\left(\alpha_{\mathrm{cmd}}, \mathrm{M}\right)=\frac{\mathrm{D}_{\mathrm{cmd}}}{\frac{1}{2} \rho \mathrm{V}^{2} \mathrm{s}}
+\end{equation}
+
+\item
+The angle of attack $\alpha_{cmd}$ is retrieved for a given flight condition (h and V) for example. h and V are thus the parameters that should be obtained by the navigation system. Several types of sensors can be used to do so, think of pressure sensors (relate atmospheric pressure to altitude), GPS, radar systems etc. For more examples and context see (reader p.388).
+\end{enumerate}
